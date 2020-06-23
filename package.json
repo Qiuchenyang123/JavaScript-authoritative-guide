@@ -1,0 +1,34 @@
+{
+  "name": "JavaScript-authoritative-guide",
+  "version": "1.0.0",
+  "description": "javascript权威指南",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "flow": "flow",
+    "check": "flow check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiuchenyang123/JavaScript-authoritative-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Qiuchenyang123/JavaScript-authoritative-guide/issues"
+  },
+  "homepage": "https://github.com/Qiuchenyang123/JavaScript-authoritative-guide#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "flow-bin": "^0.113.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-flow": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "jquery": "^1.12.4"
+  }
+}

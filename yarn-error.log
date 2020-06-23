@@ -1,0 +1,52 @@
+Arguments: 
+  F:\nodejs\node.exe F:\nodejs\node_modules\yarn\bin\yarn.js add flow-bin
+
+PATH: 
+  E:\privateProject\JavaScript-authoritative-guide\node_modules\.bin;F:\新建文件夹 (2)\;C:\Ruby25-x64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\Git\cmd;F:\PBB Reader\x64;C:\Program Files\TortoiseGit\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;F:\nodejs\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Administrator\.dotnet\tools;C:\Users\Administrator\Microsoft VS Code\bin;F:\mongodb\bin;F:\nodejs\node_global;C:\Users\Administrator\AppData\Local\Pandoc\;C:\Users\Administrator\AppData\Roaming\npm
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.113.0.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:170:17)
+
+npm manifest: 
+  {
+    "name": "JavaScript-authoritative-guide",
+    "version": "1.0.0",
+    "description": "javascript权威指南",
+    "scripts": {
+      "dev": "webpack-dev-server",
+      "flow": "flow"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Qiuchenyang123/JavaScript-authoritative-guide.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Qiuchenyang123/JavaScript-authoritative-guide/issues"
+    },
+    "homepage": "https://github.com/Qiuchenyang123/JavaScript-authoritative-guide#readme",
+    "dependencies": {
+      "html-webpack-plugin": "^3.2.0",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.10",
+      "webpack-dev-server": "^3.9.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
